@@ -1,0 +1,9 @@
+.container {
+    min-height: 100vh;      
+}
+
+.greetingMsg {
+    padding-top: 110px;
+    color: white;
+    text-align: center;    
+}

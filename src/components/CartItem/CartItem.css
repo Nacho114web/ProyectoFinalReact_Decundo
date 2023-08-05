@@ -1,0 +1,24 @@
+.itemCartContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;   
+    border-radius: 15px;
+    background-color: #ed744b;
+    padding: 5px;
+}
+
+.itemCartTitle {
+    font-weight: bold;
+    min-width: 40%;
+    text-transform: uppercase;
+}
+
+.itemCartQuant {
+    font-weight: bold;
+}
+
+.itemCartSubt {
+    font-weight: bold;
+}
