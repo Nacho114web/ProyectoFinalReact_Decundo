@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Nacho114web/ProyectoFinalReact_Decundo/static/css/main.629b4f3a.css",
+    "main.js": "/Nacho114web/ProyectoFinalReact_Decundo/static/js/main.6eb016f4.js",
+    "static/media/fondo_biblioteca.jpg": "/Nacho114web/ProyectoFinalReact_Decundo/static/media/fondo_biblioteca.f34f416644102d455c1b.jpg",
+    "index.html": "/Nacho114web/ProyectoFinalReact_Decundo/index.html",
+    "main.629b4f3a.css.map": "/Nacho114web/ProyectoFinalReact_Decundo/static/css/main.629b4f3a.css.map",
+    "main.6eb016f4.js.map": "/Nacho114web/ProyectoFinalReact_Decundo/static/js/main.6eb016f4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.629b4f3a.css",
+    "static/js/main.6eb016f4.js"
+  ]
+}
