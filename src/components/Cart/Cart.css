@@ -27,7 +27,7 @@
     background-color: #ebbbab;
     border-radius: 15px;
     position: relative;
-    left: 20%;    
+    left:20%;    
 }
 
 .emptyCart>h1 {
@@ -49,3 +49,26 @@
     align-items: center;
     width: 90%;
 }
+
+@media screen and (max-width:576px) {
+
+    .cart {
+        width: 90vw;
+        margin:0;
+        margin-top: 189px;
+        left:5%;
+        border-radius: 10px;        
+    }    
+    
+    .emptyCart {       
+        height: 22vh;
+        width: 90vw;        
+        left: 5%; 
+        top:85px;
+    }
+
+    .emptyCart>h1 {
+        font-size: 2.5em;
+        padding:5px;
+    }    
+   }

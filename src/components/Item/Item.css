@@ -21,3 +21,18 @@
 .cardCover {
     height: 50%;
 }
+
+@media screen and (max-width:576px) {
+    .cardContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border: 2px solid rgb(28, 27, 27);
+        border-radius: 5px;
+        background-color: rgb(235, 187, 171);
+        width: 48%;
+        height: 39vh;
+        margin: 0px;        
+    }   
+}

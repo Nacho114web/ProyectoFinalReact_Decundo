@@ -36,3 +36,38 @@
     padding: 10px;
     text-decoration: none;
 }
+
+@media screen and (max-width:576px) {
+    .navBarContainer {
+        flex-direction: column;
+        left:57%;
+        top:10px;
+        width: 40%;
+        border-radius: 5px;
+        height: 36%;
+    }
+
+    .logo {
+        height: 41px;
+    }
+
+    .navBarButton {        
+        border-radius: 5px;
+        font-size: 1.2em;
+        background-color: #5f0db8;
+        color: white;
+        padding: 3px;
+        text-decoration: none;
+    }
+    
+    .activeNavBarButton {
+        background-color: crimson;
+        cursor: pointer;
+        border: 1px solid;
+        border-radius: 5px;
+        font-size: 1.2em;
+        color: white;
+        padding: 4px;
+        text-decoration: none;
+    }
+}

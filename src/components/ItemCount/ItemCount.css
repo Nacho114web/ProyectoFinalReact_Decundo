@@ -29,3 +29,17 @@
     font-weight: bold;
 }
 
+@media screen and (max-width:576px) {
+    .countContainer {
+        height: 45%;
+        justify-content: space-around;
+    }
+    .counter {
+        height: 40%;
+    }
+    .counter>button {
+       width: 30%;
+       height: 82%;
+    }
+}
+

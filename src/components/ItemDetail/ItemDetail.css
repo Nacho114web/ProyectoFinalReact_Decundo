@@ -40,11 +40,22 @@
     font-size: 1.1em;
 }
 
-
 .cardDetCover {
     height: 95%;
 }
 
 .cardDetDescrip, .cardDetCateg, .cardDetStock {
     font-size: 1.1em;
+}
+
+@media screen and (max-width:576px) {
+    .cardDetContainer {
+        width: 88%;
+        height: 58%;
+        margin: 5px;   
+    }
+
+    .cardDetDescrip {
+        padding-left: 5px;
+    }
 }

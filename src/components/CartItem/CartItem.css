@@ -22,3 +22,15 @@
 .itemCartSubt {
     font-weight: bold;
 }
+
+@media screen and (max-width:576px) {
+    .itemCartContainer {
+        width: 97%;  
+        border-radius: 5px;;
+        padding: 3px;
+    }
+
+    .itemCartSubt {
+        font-weight: normal;
+    }
+}

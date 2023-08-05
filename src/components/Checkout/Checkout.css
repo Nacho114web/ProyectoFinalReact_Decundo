@@ -16,7 +16,8 @@
 h1 {font-size: 3em;
     padding-top: 110px;
     color: white; 
-    text-align: center; }
+    text-align: center; 
+}
 
 .backButton {
     cursor: pointer;
@@ -28,4 +29,18 @@ h1 {font-size: 3em;
     padding: 10px;
     font-size: 2em;    
     text-decoration: none;
+}
+
+@media screen and (max-width:576px) {
+    h1 {font-size: 2.5em;
+        padding-top: 10px;
+        width: 50%; 
+    }
+    
+    .idMessageContainer h1 {
+        font-size: 2.5em;
+        padding-top: 40%;
+        text-align: center;
+        width: 90%;
+    }
 }

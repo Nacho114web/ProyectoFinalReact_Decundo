@@ -18,3 +18,12 @@
 .hiddenCart{
     display: none;
 }
+
+@media screen and (max-width:576px) {
+    .shownCart img{
+        height: 36px;
+    }
+
+
+
+}
