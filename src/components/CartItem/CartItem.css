@@ -34,3 +34,17 @@
         font-weight: normal;
     }
 }
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .itemCartContainer {
+        width: 98%;   
+        border-radius: 5px;
+        background-color: #ed744b;
+        padding: 3px;
+    }
+    
+    .itemCartSubt {
+        font-weight: normal;
+    }
+
+}

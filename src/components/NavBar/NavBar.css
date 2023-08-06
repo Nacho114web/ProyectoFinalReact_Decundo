@@ -71,3 +71,29 @@
         text-decoration: none;
     }
 }
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .navBarContainer {
+        width: 98%;
+        left:1%;
+        border-radius: 15px;
+    }
+    
+    .logo {
+        height: 50px;
+    }
+    
+    .navBarButton {
+        border-radius: 5px;
+        font-size: 1.1em;
+        padding: 3px;
+    }
+    
+    .activeNavBarButton {
+        border-radius: 5px;
+        font-size: 1.1em;
+        color: white;
+        padding: 5px;        
+    }
+
+}

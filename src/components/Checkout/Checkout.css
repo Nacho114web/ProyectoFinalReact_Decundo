@@ -44,3 +44,12 @@ h1 {font-size: 3em;
         width: 90%;
     }
 }
+
+@media screen and (min-width:577px) and (max-width:992px){
+    
+    h1 {
+        font-size: 2.5em;         
+    }
+    
+
+}
